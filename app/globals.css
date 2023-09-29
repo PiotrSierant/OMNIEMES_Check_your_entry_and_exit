@@ -25,3 +25,22 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+tr {
+  padding: 1rem;
+}
+
+tr:nth-child(2n) {
+  background-color: rgba(192, 192, 192, 0.2);
+}
+
+td {
+  padding: .5rem 5px;
+}
+
+th {
+  padding: 0.5rem 5px;
+  text-align: left;
+}
+table {
+  margin-top: 1rem;
+}
