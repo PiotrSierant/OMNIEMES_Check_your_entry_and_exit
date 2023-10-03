@@ -12,12 +12,12 @@ const CSVSelector = ({ onChange }: Props) => {
         const file = e.target.files[0];
 
         Papa.parse<string[]>(file, {
-          worker: true, // use worker so that the page doesn't hang up
+          worker: true, 
           complete({ data }) {
             onChange(data);
           },
         });
-        // 6. call the onChange event
+        
       } catch (error) {
         console.error(error);
       }

@@ -1,4 +1,3 @@
-'use client'
 import CSVReader from 'react-csv-reader';
 export const ComponentCSV = () => {
     return (

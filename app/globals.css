@@ -28,9 +28,9 @@ body {
 tr {
   padding: 1rem;
 }
-
-tr:nth-child(2n) {
-  background-color: rgba(192, 192, 192, 0.2);
+tbody tr:nth-child(4n-3),
+tbody tr:nth-child(4n-2) {
+  background-color: rgba(192, 192, 192, 0.4);
 }
 
 td {
